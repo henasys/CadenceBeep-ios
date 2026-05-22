@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "ko",
   "strings" : {
+    "%lld" : {
+
+    },
     "Accent" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -51,6 +54,9 @@
           }
         }
       }
+    },
+    "Cadence Beep" : {
+
     },
     "Sound" : {
       "extractionState" : "manual",
@@ -119,6 +125,15 @@
           }
         }
       }
+    },
+    "SPM" : {
+
+    },
+    "START" : {
+
+    },
+    "STOP" : {
+
     }
   },
   "version" : "1.0"

@@ -60,7 +60,6 @@
 		A40000 = {
 			isa = PBXGroup;
 			children = (
-				430F70512FC026AB001EFDFD /* Localizable.xcstrings */,
 				A40001 /* CadenceBeep */,
 				430F703D2FC01E4B001EFDFD /* CadenceBeepUITests */,
 				A40002 /* Products */,
@@ -75,6 +74,7 @@
 				A20003 /* BeepEngine.swift */,
 				A20004 /* Assets.xcassets */,
 				A20005 /* Info.plist */,
+				430F70512FC026AB001EFDFD /* Localizable.xcstrings */,
 			);
 			path = CadenceBeep;
 			sourceTree = "<group>";

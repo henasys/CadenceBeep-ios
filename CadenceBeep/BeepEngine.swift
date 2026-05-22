@@ -1,12 +1,21 @@
 import AVFoundation
 import Combine
+import SwiftUI
 
 enum BeepSound: String, CaseIterable, Identifiable {
-    case high = "높은톤"
-    case low = "낮은톤"
-    case click = "클릭"
+    case high
+    case low
+    case click
 
     var id: String { rawValue }
+
+    var displayName: LocalizedStringKey {
+        switch self {
+        case .high: return "Sound.High"
+        case .low: return "Sound.Low"
+        case .click: return "Sound.Click"
+        }
+    }
 
     var frequency: Double {
         switch self {

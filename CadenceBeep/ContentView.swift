@@ -74,7 +74,7 @@ struct ContentView: View {
 
                 // Accent
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("강박")
+                    Text("Accent")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
 
@@ -83,7 +83,7 @@ struct ContentView: View {
                             Button {
                                 engine.accentEvery = opt
                             } label: {
-                                Text(opt == 0 ? "끄기" : "\(opt)박")
+                                accentLabel(for: opt)
                                     .font(.subheadline)
                                     .frame(maxWidth: .infinity)
                                     .padding(.vertical, 8)
@@ -100,7 +100,7 @@ struct ContentView: View {
 
                 // Sound selection
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("사운드")
+                    Text("Sound")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
 
@@ -163,6 +163,15 @@ struct ContentView: View {
         withAnimation(.snappy) { engine.spm = newValue }
         engine.updateTiming()
     }
+
+    @ViewBuilder
+    private func accentLabel(for opt: Int) -> some View {
+        if opt == 0 {
+            Text("Accent.Off")
+        } else {
+            Text("Accent.EveryNBeats \(opt)")
+        }
+    }
 }
 
 struct SoundOptionLabel: View {
@@ -173,7 +182,7 @@ struct SoundOptionLabel: View {
         HStack(spacing: 4) {
             Image(systemName: selected ? "checkmark.circle.fill" : "circle")
                 .font(.caption)
-            Text(sound.rawValue)
+            Text(sound.displayName)
                 .font(.subheadline)
         }
         .frame(maxWidth: .infinity)

@@ -14,3 +14,30 @@ xcuserdata/
 
 # CocoaPods
 Pods/
+
+# Build outputs
+*.ipa
+*.dSYM.zip
+
+# fastlane — auto-generated, regenerated on every run
+fastlane/report.xml
+fastlane/test_output
+fastlane/Preview.html
+fastlane/screenshots/screenshots.html
+fastlane/README.md
+fastlane/screenshots/_original_*/
+
+# fastlane — Apple review contact info (personal data: phone, name, email)
+# Already synced to App Store Connect; no need to keep in git
+fastlane/metadata/review_information/
+
+# Secrets — never commit signing material or env files
+*.p8
+*.p12
+*.mobileprovision
+*.cer
+*.pem
+AuthKey_*.p8
+.env
+.env.local
+.env.*.local

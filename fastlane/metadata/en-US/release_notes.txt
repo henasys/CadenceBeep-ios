@@ -1,0 +1,4 @@
+Initial release!
+• Minimal metronome to lock in your running cadence
+• Adjustable SPM 100–220 with 4 preset paces
+• Plays alongside music, runs in background

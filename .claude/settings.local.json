@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcrun simctl *)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/alexlee/Develop/projects/2026/CadenceBeep/fastlane/screenshots/ko/*.png)",
+      "Bash(mkdir -p _original_1320x2868)",
+      "Bash(cp ko/*.png _original_1320x2868/)",
+      "Bash(cp en-US/*.png _original_1320x2868/)",
+      "Bash(git check-ignore *)"
+    ]
+  }
+}

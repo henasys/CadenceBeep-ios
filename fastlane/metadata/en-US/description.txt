@@ -1,0 +1,22 @@
+CadenceBeep is a minimalist metronome built for runners. Lock in a steady cadence (steps per minute), improve your form, and keep your pace consistent over long distances. It plays alongside your music and keeps running in the background — even when your screen is off.
+
+KEY FEATURES
+• Adjustable SPM from 100 to 220
+• Popular cadence presets: 150 · 160 · 170 · 180
+• Accent options: emphasize every 2, 3, or 4 beats
+• Three sounds: High tone, Low tone, Click
+• Volume control slider
+• Plays simultaneously with your music
+• Background playback supported
+• No ads · No account required · Works fully offline
+
+WHO IT'S FOR
+• Runners aiming to raise their cadence intentionally
+• Anyone wanting consistent pacing on long runs
+• Runners refining form with a steady, audible beat
+• People who want a clean metronome instead of relying on music BPM
+
+TIPS
+A running cadence in the 170–180 SPM range is often associated with lower injury risk. Don't jump straight to the target — measure your current cadence first, then nudge it up by ~5 SPM at a time.
+
+Wearing earphones helps the beep blend naturally with your footfalls. Turn on Accent to lock the rhythm in, especially when your pace starts to drift.
